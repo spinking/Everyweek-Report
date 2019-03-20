@@ -1,0 +1,156 @@
+/*6D6D6D*/
+
+body {
+	display:flex;
+	justify-content:space-between;
+	position:relative;
+	width:100%;
+	height:100vh;
+	margin:0;
+	padding:0;
+	color:#fff;
+	font-family: 'Roboto', sans-serif;
+	font-size:15px;
+}
+
+
+
+.form-job {
+	width:30%;
+	height:100%;
+	box-sizing:border-box;
+	background:#212121;
+}
+
+.form-job > div {
+	width:80%;
+	height:40px;
+	margin-left:36px;
+	margin-bottom:60px;
+}
+
+.form-job > div > input, .form-job > div > select {
+	height:100%;
+	width:100%;
+	display:block;
+	border:none;
+	border-bottom:2px solid #fff;
+	background:#212121;
+	color:#fff;
+}
+
+.week-display {
+	margin:0;
+	width: 70%;
+	height: 100%;
+	box-sizing:border-box;
+	color:#212121;
+}
+
+.week-display > div > div {
+	margin:3px 20px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.monday, .thuesday, .wednesday, .thursday, .friday, .visiting {
+	box-sizing:border-box;
+	width:100%;
+	height: 18.8%;
+	display:block;
+	border-bottom:2px solid #212121;
+	border-right:2px solid #212121;
+}
+
+.monday {
+	border-top:2px solid #212121;
+}
+
+.visiting {
+	height:6%;
+}
+
+.report {
+	display:block;
+}
+
+.report-button {
+	display:inline-block;
+	float:left;
+}
+
+.report-link {
+	font-size:14px;
+	display:inline-block;
+	width:140px;
+	height:48px;
+	line-height:24px;
+	vertical-align:middle;
+	box-sizing:border-box;
+	background-color:#6D3836;
+	border:none;
+	color:#fff;
+	text-transform:uppercase;
+	margin:0 auto;
+	cursor:pointer;
+	text-decoration:none;
+	text-align:center;
+}
+
+.quart-report-button {
+	display:inline-block;
+	float:right;
+}
+
+.quart-report-link {
+	font-size:14px;
+	display:inline-block;
+	width:140px;
+	height:48px;
+	line-height:24px;
+	vertical-align:middle;
+	box-sizing:border-box;
+	background-color:#538BB9;
+	border:none;
+	color:#fff;
+	text-transform:uppercase;
+	margin:0 auto;
+	cursor:pointer;
+	text-decoration:none;
+	text-align:center;
+}
+
+.form-job > .job-link {
+	margin-bottom:40px;
+}
+
+.form-job > .job-link > input {
+	width:306px;
+	height:40px;
+	box-sizing:border-box;
+	background-color:#356D4A;
+	border:none;
+	color:#fff;
+	text-transform:uppercase;
+	cursor:pointer;
+	outline:none;
+}
+
+.form-job input[type="hidden"] {
+	position:absolute;
+}
+
+#room{
+	width:266px;
+	padding:0 20px;
+    -webkit-box-shadow: inset 0 0 0 50px #fff;
+    -webkit-text-fill-color: #212121;
+}
+
+.visit-link {
+	display:inline-block;
+}
